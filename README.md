@@ -20,7 +20,7 @@ date and also estimates (forcasts) the value of the price one year forward to th
 # TASK 2: Price a Commodity Storage Contract
 - The client wants to start trading as soon as possible. They believe the winter will be colder than expected, so they want to buy gas now to store and sell in winter in order to take advantage of the resulting increase in gas prices. They ask me to write a script that they can use to price the contract.
 - I have to create a prototype pricing model that can go through further validation and testing before being put into production. this model may be the basis for fully automated quoting to clients, but for now, the desk will use it with manual oversight to explore options with the client.
-- I wrote the python code for this model in the (Task2.py) file, where the client can enter his inputs (multiple inputs) as follows:
+- I wrote the python code for this model in the "Task2.py" file, where the client can enter his inputs (multiple inputs) as follows:
 (1) Injection dates,
 (2) Withdrawal dates,
 (3) The prices at which the commodity can be purchased/sold on those dates,
